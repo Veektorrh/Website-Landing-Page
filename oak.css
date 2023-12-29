@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --HEADING-COLOR: rgb(70, 70, 201);
+    --PCOLOR: rgba(50, 204, 178);
+    --SUBH-FONTSIZE: 2rem;
+}
+body{
+    background-color: whitesmoke;
+}
+.header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+}
+.header a{
+    margin: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.demo{
+    padding: 10px;
+    border: none;
+    background-color: rgb(195, 228, 233);
+    border-radius: 15px;
+    font-size: small;
+}
+a:hover{
+    background-color: rgb(183, 183, 236);
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2rem;
+    margin: 50px;
+    padding: 100px;
+}
+.heading button{
+    padding: 20px;
+    font-size: large;
+    border-radius: 30px;
+}
+.hcolor{
+    color: rgb(89, 238, 238);
+    font-size: var(--SUBH-FONTSIZE);
+}
+h1{
+    color: var(--HEADING-COLOR);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-size: 4rem;
+}
+button{
+    background-color: rgb(53, 139, 111);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.seconda{
+    color: var(--PCOLOR);
+    margin: 20px;
+    font-size: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: var(--HEADING-COLOR);
+}
+.article1, .article2, .article3{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.article1 div, .article2 div, .article3 div {
+    margin: 20px;
+    padding: 20px;
+}
+.article1 h2, .article h2, .article3 h2{
+    font-size: var(--SUBH-FONTSIZE);
+}
+h2{
+    color: var(--HEADING-COLOR);
+}
+.articlea{
+    color: var(--PCOLOR);
+}
+.bigbuttons{
+    display: flex;
+    justify-content: center;
+}
+.bigbutton{
+    display:flex;
+    align-items: center;
+    border: 2px solid var(--PCOLOR);
+    border-radius: 10px 80px 10px 80px;
+}
+.inner{
+    border: none;
+    border-radius: 10px 80px 10px 80px;
+    background-color: var(--PCOLOR);
+    color: white;
+    margin: 8px;
+    line-height: 3rem;
+}
+.innermost{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.innermost span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.profile{
+    padding: 0 10px 0 0;
+}
+p span{
+    font-size: 2rem;
+    display: block;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.buttona{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.buttona:hover{
+    background-color: rgb(39, 145, 127);
+    border: none;
+    border-radius: 0 0 10px 80px;
+}
+.inner:hover{
+    background-color: rgb(39, 145, 127) ;
+    .buttona{
+        text-decoration: underline;
+    }
+}
+.solutiond{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px 0 60px;
+}
+.solutiond div{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 0 30px 0 30px;
+    padding: 20px;
+}
+/*.solutiond ul{
+    line-height: 2rem;
+}*/
+.solutionb{
+    background-color: var(--HEADING-COLOR);
+}
+.solutionh{
+    /*display: flex;*/
+    justify-content: center;
+    text-align: center;
+    font-size: var(--SUBH-FONTSIZE);
+    background-color: whitesmoke;
+    color: var(--HEADING-COLOR);
+}
+.awardimg{
+    padding: 20px;
+}
+.blogimg{
+    width: 380px;
+    height: auto;
+}
+.blogd{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center; 
+}
+.blogw{
+    line-height: 2rem;
+    margin: 10px;
+}
+.blogpost{
+    background-color: white;
+    width: 33%;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.blogpost a:hover{
+    background-color: white;
+    color: rgb(4, 4, 94);
+}
+.Blog h2{
+    font-size: var(--SUBH-FONTSIZE);
+}
+.date{
+    font-size: smaller;
+    font-weight: bold;
+}
+.bloglink{
+    text-decoration: none;
+}
+.Blog h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+    background-color: whitesmoke;
+}
+.blogbutton{
+    background-color: var(--HEADING-COLOR);
+    font-size: large;
+    padding: 10px;
+    border-radius: 20px;
+}
+.blogbutton:hover{
+    background-color:rgb(8, 8, 163);
+}
+.footer{
+    background-color: white;
+    padding: 30px;
+}
+
+.fu{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: smaller;
+}
+.fu1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: top;
+    margin-right: 5px;
+    background-color: white;
+}
+.fu1 li{
+    list-style: none;
+    line-height: 2rem;
+}
+.fu1 a{
+    text-decoration: none;
+    color: rgb(107, 102, 102);
+}
+.fu1 a:hover{
+    background-color: white;
+    color: var(--HEADING-COLOR);
+}
+.fu2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5px;
+    background-color: white;
+}
+.fu2 img{
+    border: none;
+    border-radius: 50%;
+}
+hr{
+    margin: 0 20px 0 20px;
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin: 30px;
+    font-size: smaller;
+}
+.fl1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2rem;
+}
+.fl1 a, .fl1 p, .fl1 a:hover{
+    color: rgb(107, 102, 102);
+    background-color: white;
+}
+select{
+    border: none;
+}
+
